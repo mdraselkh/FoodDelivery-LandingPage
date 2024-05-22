@@ -1,0 +1,21 @@
+.custom_shape {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom_shape svg {
+   position: relative;
+   display: block;
+   width: calc(221% + 1.3px);
+   height: 100px;
+   transform: rotateX(270deg);
+}
+
+.custom_shape.shape-fill {
+   fill: #df6060;
+}
